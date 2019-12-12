@@ -22,11 +22,39 @@ layout: default
 <!-- call up the main recipe title and content -->
   <header class="post-header">
     <h1 class="post-title center m1 sm-mt3" itemprop="name">{{ page.title }}</h1>
+    {% if page.author %}<h2 class="center m1 sm-mt3" itemprop="author">from: {{page.author}}</h2>{% endif %}
   </header>
 
   <div class="px2 mt3 clearfix">
     <div class="sm-col-8 center mx-auto" itemprop="description">{{page.content}}</div>
   </div>
+
+  <div class="clearfix">
+      <div class="col-8 mx-auto">
+      <div class="sm-col sm-col-6 lg-col-6">
+      {% if page.preptime %}
+        <p class="clearfix">Prep Time: 
+          <time itemprop="prepTime" datetime="PT{{ page.preptime | date: "%M" }}M">{{ page.preptime | date: "%M" }} minutes</time>
+        </p>
+      {% endif %}
+      {% if page.cooktime %}
+        <p class="clearfix">Cook Time: 
+          <time itemprop="cookTime" datetime="PT{{ page.cooktime | date: "%M" }}M">{{ page.cooktime | date: "%M" }} minutes</time>
+        </p>
+      {% endif %}
+      </div>
+      <div class="sm-col sm-col-6 lg-col-6">
+        {% if page.calories %}
+        <span itemprop="nutrition"
+ itemscope itemtype="http://schema.org/NutritionInformation">
+          <span itemprop="calories">Calories: {{page.calories}}</span>
+        </span>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  
   
 <!-- call up recipe and directions -->
   <div class="clearfix mt3">
@@ -64,6 +92,17 @@ layout: default
     </div>
   
   </div>
+
+  {% if page.notes %}
+  <div class="px2 mt3 clearfix">
+    <div class="sm-col-8 mx-auto" itemprop="">
+      <h3>Notes</h3>
+      {% for note in page.notes %}
+      <p>{{ note | markdownify }}</p>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
 <!-- end recipe and directions -->
 
 <!-- check if it's a component-based recipe, render it -->
@@ -116,9 +155,34 @@ layout: default
   {% endif %}
 <!-- end components -->
   
-  {% for category in page.categories %}
-    <p class="clearfix">Category: <span itemprop="recipeCategory">{{ category }}</span></p>
-  {% endfor %}
+    {% if page.categories %}
+    <p class="clearfix">Category: 
+      {% for category in page.categories %}
+      <span itemprop="recipeCategory">{{ category }}</span>
+      {% endfor %}
+    </p>
+    {% endif %}
+
+    {% if page.tags %}
+    <p class="clearfix">Tags: 
+      {% for tag in page.tags %}
+      <span>{{ tag }}</span>
+      {% endfor %}
+    </p>
+    {% endif %}
+
+    {% if page.cuisine %}
+    <p class="clearfix">Cuisine: 
+      <span itemprop="recipeCuisine">{{ page.cuisine }}</span>
+    </p>
+    {% endif %}
+
+    {% if page.keywords %}
+    <p class="clearfix">Keywords: 
+      <span itemprop="keywords">{{ page.keywords }}</span>
+    </p>
+    {% endif %}
+
 
   </article>
 
