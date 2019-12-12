@@ -1,0 +1,67 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "{{ page.title }}",
+  "image": [
+  "{{page.image}}"
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "{{page.author}}"
+  },
+  "datePublished": "2018-03-10",
+  "description": "{{page.content}}",
+  "prepTime": "PT20M",
+  "cookTime": "PT30M",
+  "totalTime": "PT50M",
+  "keywords": "{{page.keywords}}",
+  "recipeYield": "10 servings",
+  "recipeCategory": "{{page.category}}",
+  "recipeCuisine": "{{page.cuisine}}",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "{{page.calories}}"
+  },
+  "recipeIngredient": [
+    {% if page.ingredients %}
+      {% for ingredient in page.ingredients %}
+      "{{ ingredient | markdownify }}",
+      {% endfor %}
+    {% endif %}
+    ],
+  "recipeInstructions": [
+  {% for direction in page.directions %}
+  {
+      "@type": "HowToStep",
+      "text": "{{ direction | markdownify }}"
+    },
+        <li>{{ direction | markdownify }}</li>
+        {% endfor %}
+  ]
+  /*,
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "ratingCount": "18"
+  },
+  "video": [
+    {
+    "@type": "VideoObject",
+    "name": "How to make a Party Coffee Cake",
+    "description": "This is how you make a Party Coffee Cake.",
+    "thumbnailUrl": [
+      "https://example.com/photos/1x1/photo.jpg",
+      "https://example.com/photos/4x3/photo.jpg",
+      "https://example.com/photos/16x9/photo.jpg"
+     ],
+    "contentUrl": "http://www.example.com/video123.mp4",
+    "embedUrl": "http://www.example.com/videoplayer?video=123",
+    "uploadDate": "2018-02-05T08:00:00+08:00",
+    "duration": "PT1M33S",
+    "interactionCount": "2347",
+    "expires": "2019-02-05T08:00:00+08:00"
+   }
+  ]*/
+}
+</script>
