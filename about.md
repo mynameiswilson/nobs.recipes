@@ -4,4 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Chowdown, a plain text recipe database for hackers
+No B.S. Recipes is a simple site that focuses on making great recipes quick and accessible, without preamble.
+
+Based on <a href="http://github.com/clarklab/chowdown">Chowdown<a/>, a plain text recipe database for hackers.
