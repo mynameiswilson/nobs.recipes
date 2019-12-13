@@ -5,6 +5,7 @@ description: Great recipes with no bullshit.
 baseurl: ""
 twitter_username: mynameiswilson
 github_username:  mynameiswilson
+gtm_id: "GTM-N55922C"
 
 # Build settings
 markdown: kramdown
