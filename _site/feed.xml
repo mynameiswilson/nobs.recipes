@@ -5,8 +5,8 @@
     <description>Great recipes with no bullshit.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 13 Dec 2019 08:42:33 -0500</pubDate>
-    <lastBuildDate>Fri, 13 Dec 2019 08:42:33 -0500</lastBuildDate>
+    <pubDate>Fri, 13 Dec 2019 08:55:25 -0500</pubDate>
+    <lastBuildDate>Fri, 13 Dec 2019 08:55:25 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
