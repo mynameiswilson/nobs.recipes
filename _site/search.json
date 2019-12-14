@@ -16,6 +16,15 @@
 		"image"	   : "dill-pickle-soup.webp",
 	    "url"      : "/recipes/dill-pickle-soup.html"
       
+    } ,
+  
+    {
+    
+	    "title"    : "The Best Oatmeal Raisin Cookie Recipe",
+		"ingredients"    : "1/2 cup (1 stick, 4 ounces, or 115 grams) butter, softened, 2/3 cup (125 grams) light brown sugar, packed, 1 large egg, 1/2 teaspoon vanilla extract, 3/4 cup (95 grams) all-purpose flour, 1/2 teaspoon baking soda, 1/2 teaspoon ground cinnamon, 1/4 teaspoon table salt (I often use a half teaspoon, but I like more salt in my baked goods), 1 1/2 cups (120 grams) rolled oats, 3/4 cup (120 grams) raisins, 1/2 cup walnuts (65 grams), chopped (optional), ",
+		"image"	   : "oatmeal-raisin-cookies.jpg",
+	    "url"      : "/recipes/oatmeal-raisin-cookies.html"
+      
     } 
   
 ]
