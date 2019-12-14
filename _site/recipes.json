@@ -2,7 +2,7 @@
 
 [
     {
-        "title": "The Best Chocolate Chip Cookie Recipe",
+        "title": "The Best Chocolate Chip Cookies",
         "image": "images/large/chocolate-chip-cookies.jpg"
     },
 
@@ -12,7 +12,12 @@
     },
 
     {
-        "title": "The Best Oatmeal Raisin Cookie Recipe",
+        "title": "Double Dark Chocolate Cherry Cookies",
+        "image": "images/large/double-dark-chocolate-cherry-cookies.jpg"
+    },
+
+    {
+        "title": "The Best Oatmeal Raisin Cookies",
         "image": "images/large/oatmeal-raisin-cookies.jpg"
     }
 ]

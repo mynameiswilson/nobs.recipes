@@ -1,7 +1,7 @@
 ---
 
 layout: recipe
-title:  "The Best Chocolate Chip Cookie Recipe"
+title:  "The Best Chocolate Chip Cookies"
 image: chocolate-chip-cookies.jpg
 imagecredit: https://benwilson.org
 author: Ben Wilson (ben@thelocust.org)

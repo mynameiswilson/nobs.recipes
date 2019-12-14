@@ -2,7 +2,7 @@
   
     {
     
-	    "title"    : "The Best Chocolate Chip Cookie Recipe",
+	    "title"    : "The Best Chocolate Chip Cookies",
 		"ingredients"    : "1 cup (2 sticks) salted butter, softened, 1/2 cup sugar, 1 1/2 cup packed brown sugar, 2 eggs, 2 tsp. vanilla extract, 2 3/4 cups (12 oz) all-purpose flour *If at all possible, please weigh the flour, 3/4 tsp. smallish-medium coarse sea salt (not table salt), 1 tsp. baking soda, 1 1/2 tsp. baking powder, 2 1/4 cups semi-sweet chocolate chips, ",
 		"image"	   : "chocolate-chip-cookies.jpg",
 	    "url"      : "/recipes/chocolate-chip-cookies.html"
@@ -20,7 +20,16 @@
   
     {
     
-	    "title"    : "The Best Oatmeal Raisin Cookie Recipe",
+	    "title"    : "Double Dark Chocolate Cherry Cookies",
+		"ingredients"    : "1 cup all-purpose flour, 3/4 cup Dutch-process cocoa powder*, 1 teaspoon baking soda, 1/4 teaspoon kosher salt, 1/2 cup unsalted butter, softened, 2/3 cup granulated sugar, 1/4 cup firmly packed dark brown sugar, 1 large egg, 1/4 teaspoon vanilla extract, 3/4 cup semisweet chocolate chips*, 1/3 cup dried sour cherries, ",
+		"image"	   : "double-dark-chocolate-cherry-cookies.jpg",
+	    "url"      : "/recipes/double-dark-chocolate-cherry-cookies.html"
+      
+    } ,
+  
+    {
+    
+	    "title"    : "The Best Oatmeal Raisin Cookies",
 		"ingredients"    : "1/2 cup (1 stick, 4 ounces, or 115 grams) butter, softened, 2/3 cup (125 grams) light brown sugar, packed, 1 large egg, 1/2 teaspoon vanilla extract, 3/4 cup (95 grams) all-purpose flour, 1/2 teaspoon baking soda, 1/2 teaspoon ground cinnamon, 1/4 teaspoon table salt (I often use a half teaspoon, but I like more salt in my baked goods), 1 1/2 cups (120 grams) rolled oats, 3/4 cup (120 grams) raisins, 1/2 cup walnuts (65 grams), chopped (optional), ",
 		"image"	   : "oatmeal-raisin-cookies.jpg",
 	    "url"      : "/recipes/oatmeal-raisin-cookies.html"

@@ -1,7 +1,7 @@
 ---
 
 layout: recipe
-title:  "The Best Oatmeal Raisin Cookie Recipe"
+title:  "The Best Oatmeal Raisin Cookies"
 image: oatmeal-raisin-cookies.jpg
 imagecredit: https://benwilson.org
 author: Ben Wilson (ben@thelocust.org)

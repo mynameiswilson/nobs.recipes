@@ -5,12 +5,12 @@
     <description>Great recipes with no bullshit.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 14 Dec 2019 11:17:10 -0500</pubDate>
-    <lastBuildDate>Sat, 14 Dec 2019 11:17:10 -0500</lastBuildDate>
+    <pubDate>Sat, 14 Dec 2019 14:40:40 -0500</pubDate>
+    <lastBuildDate>Sat, 14 Dec 2019 14:40:40 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
-        <title>The Best Chocolate Chip Cookie Recipe</title>
+        <title>The Best Chocolate Chip Cookies</title>
         <description>&lt;p&gt;These award-winning chocolate chip cookies are the best of chocolate-chip-cookiedom. Crispy yet chewy, with the added sparkle of the right amount of salt to accentuate the sweetness and add a delightful crunch.&lt;/p&gt;
 </description>
         <link>http://localhost:4000/recipes/chocolate-chip-cookies.html</link>
@@ -42,7 +42,23 @@
       </item>
     
       <item>
-        <title>The Best Oatmeal Raisin Cookie Recipe</title>
+        <title>Double Dark Chocolate Cherry Cookies</title>
+        <description>&lt;p&gt;These double-dark chocolate cookies are darker than Krampus’ heart with a delightful sour / sweet tang from cherries. Intense!&lt;/p&gt;
+</description>
+        <link>http://localhost:4000/recipes/double-dark-chocolate-cherry-cookies.html</link>
+        <guid isPermaLink="true">http://localhost:4000/recipes/double-dark-chocolate-cherry-cookies.html</guid>
+        
+        <category>cookies,</category>
+        
+        <category>baking</category>
+        
+        
+        <category>dessert</category>
+        
+      </item>
+    
+      <item>
+        <title>The Best Oatmeal Raisin Cookies</title>
         <description>&lt;p&gt;Just the right amount of chewy and sweet - these oatmeal raisin cookies can’t be beat. #teamraisin&lt;/p&gt;
 </description>
         <link>http://localhost:4000/recipes/oatmeal-raisin-cookies.html</link>
