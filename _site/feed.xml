@@ -5,8 +5,8 @@
     <description>Great recipes with no bullshit.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 14 Dec 2019 15:49:30 -0500</pubDate>
-    <lastBuildDate>Sat, 14 Dec 2019 15:49:30 -0500</lastBuildDate>
+    <pubDate>Sun, 15 Dec 2019 10:52:54 -0500</pubDate>
+    <lastBuildDate>Sun, 15 Dec 2019 10:52:54 -0500</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -70,6 +70,38 @@
         
         
         <category>dessert</category>
+        
+      </item>
+    
+      <item>
+        <title>Pickled Red Onions</title>
+        <description>&lt;p&gt;Serve these on top of beans, tucked into quesadillas or burritos, or in all manner of sandwiches. The pickling liquid is a flavorful base for vinaigrettes.&lt;/p&gt;
+</description>
+        <link>http://localhost:4000/recipes/pickled-red-onions.html</link>
+        <guid isPermaLink="true">http://localhost:4000/recipes/pickled-red-onions.html</guid>
+        
+        <category>pickles,</category>
+        
+        <category>onions</category>
+        
+        
+        <category>garnishes</category>
+        
+      </item>
+    
+      <item>
+        <title>Red Beans &amp; Rice</title>
+        <description>&lt;p&gt;A simple recipe, savory ingredients plus low and slow cook time makes for an amazing meal that pairs well with rice, tortillas, pickled onions or any number of delicious accoutrements.&lt;/p&gt;
+</description>
+        <link>http://localhost:4000/recipes/red-beans-rice.html</link>
+        <guid isPermaLink="true">http://localhost:4000/recipes/red-beans-rice.html</guid>
+        
+        <category>rice,</category>
+        
+        <category>beans</category>
+        
+        
+        <category>entrees</category>
         
       </item>
     

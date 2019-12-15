@@ -19,5 +19,15 @@
     {
         "title": "The Best Oatmeal Raisin Cookies",
         "image": "images/large/oatmeal-raisin-cookies.jpg"
+    },
+
+    {
+        "title": "Pickled Red Onions",
+        "image": "images/large/pickled-red-onions.jpg"
+    },
+
+    {
+        "title": "Red Beans & Rice",
+        "image": "images/large/red-beans-rice.jpg"
     }
 ]

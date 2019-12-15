@@ -34,6 +34,24 @@
 		"image"	   : "oatmeal-raisin-cookies.jpg",
 	    "url"      : "/recipes/oatmeal-raisin-cookies.html"
       
+    } ,
+  
+    {
+    
+	    "title"    : "Pickled Red Onions",
+		"ingredients"    : "3/4 cup white vinegar, 2 tablespoons sugar, 1/2 teaspoon salt, 1 fresh Serrano or Bird’s Eye chile, sliced thin, 3 Bay leaves, 2 garlic cloves, sliced very thin, 2 cloves, 1 medium red onion, halved and sliced thin, 1 medium carrot, sliced into 1/8-inch thick slices, ",
+		"image"	   : "pickled-red-onions.jpg",
+	    "url"      : "/recipes/pickled-red-onions.html"
+      
+    } ,
+  
+    {
+    
+	    "title"    : "Red Beans &amp; Rice",
+		"ingredients"    : "1 pound dried pinto beans, sorted well, soaked overnight, drained, and rinsed, 6 garlic cloves, peeled and smashed, 1/2 medium onion (white, yellow, or red), minced, 1 1/2 teaspoons dried epazote or Mexican oregano, 1 bay leaf, 1 teaspoon cumin seed, 1 teaspoon salt, 1 to 2 tablespoons brown sugar, 5 1/2 cups water, 1/4 cup extra virgin olive oil, 1/2 cup chopped cilantro, lime juice, (accompaniments and garnishes) rice, &lt;a href=&quot;/recipes/pickled-red-onions&quot;&gt;pickled red onions&lt;/a&gt;, lime wedges, sour cream, cotija or asadero cheeses, salsa, tortillas, ",
+		"image"	   : "red-beans-rice.jpg",
+	    "url"      : "/recipes/red-beans-rice.html"
+      
     } 
   
 ]
