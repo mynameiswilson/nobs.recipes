@@ -154,6 +154,7 @@ layout: default
   
   {% endif %}
 <!-- end components -->
+
   
     {% if page.categories %}
     <p class="clearfix">Category: 
@@ -182,6 +183,36 @@ layout: default
       <span itemprop="keywords">{{ page.keywords }}</span>
     </p>
     {% endif %}
+
+<!-- related recipes? -->
+
+{% if page.related %}
+   
+  <div class="related mt3 mb3 center">
+    <h3>Related Recipes</h3>
+    <hr/>
+  </div>
+
+  <div class="clearfix mxn2">
+  {% for related in page.related %}
+    <div class="sm-col sm-col-4 px2">
+    {% for recipe in site.recipes %}
+    {% if recipe.title == related %}
+      <h4 class="blue center"><a href="{{recipe.url}}">{{recipe.title}}</a></h4>
+      
+      {% for image in recipe.image %}
+        <a href="{{recipe.url}}">
+          <img itemprop="photo" src="{{site.baseurl}}/images/{{ image }}" />
+        </a>
+      {% endfor %}
+    {% endif %}
+    {% endfor %}
+    </div>
+  {% endfor %}
+  </div>
+  
+  {% endif %}
+<!-- end related -->
 
 
   </article>
