@@ -9,9 +9,8 @@ tags: cookies, baking
 cuisine: American
 category: dessert
 keywords: chocolate, christmas
-preptime: 01:30 
-cooktime: 00:12
-totaltime: 82-104 minutes
+preptime: 00:01:30 
+cooktime: 00:00:12
 calories: 125 calories
 
 
