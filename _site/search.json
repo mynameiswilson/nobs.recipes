@@ -29,6 +29,15 @@
   
     {
     
+	    "title"    : "Gingerbread Cookies",
+		"ingredients"    : "3 cups all-purpose flour, 3/4 cups packed dark brown sugar, 1T ground cinnamon, 1T ground ginger, 1/2 tsp ground cloves, 1/2 tsp salt (not kosher), 3/4 tsp baking soda, 12 tbsp unsalted butter, cut into pieces, 3/4 cup molasses, 2 tbsp milk, ",
+		"image"	   : "",
+	    "url"      : "/recipes/gingerbread-cookies.html"
+      
+    } ,
+  
+    {
+    
 	    "title"    : "The Best Oatmeal Raisin Cookies",
 		"ingredients"    : "1/2 cup (1 stick, 4 ounces, or 115 grams) butter, softened, 2/3 cup (125 grams) light brown sugar, packed, 1 large egg, 1/2 teaspoon vanilla extract, 3/4 cup (95 grams) all-purpose flour, 1/2 teaspoon baking soda, 1/2 teaspoon ground cinnamon, 1/4 teaspoon table salt (I often use a half teaspoon, but I like more salt in my baked goods), 1 1/2 cups (120 grams) rolled oats, 3/4 cup (120 grams) raisins, 1/2 cup walnuts (65 grams), chopped (optional), ",
 		"image"	   : "oatmeal-raisin-cookies.jpg",
